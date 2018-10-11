@@ -67,4 +67,26 @@ body {
 .main-nav__link {
     text-decoration: none;
     color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.main-nav__link:hover,
+.main-nav__link:active {
+    color: #fff;
+    border-bottom: 5px solid #fff;
+}
+
+.main-nav__link--cta {
+    color: #fff;
+    background: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__link--cta:hover,
+.main-nav__link--cta:active {
+    color: #ff1b68;
+    background: #fff;
+    border: none;
 }
